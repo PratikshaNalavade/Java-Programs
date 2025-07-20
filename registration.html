@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Registration</title>
+</head>
+<body>
+	
+	 <h2>Employee Registration Form</h2>
+  <form action="submit_registration" method="post">
+    
+    <label for="empId">Employee ID:</label><br>
+    <input type="text" id="empId" name="empId" required><br><br>
+
+    <label for="fullName">Full Name:</label><br>
+    <input type="text" id="fullName" name="fullName" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+      <option value="">--Select--</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select><br><br>
+
+    <label for="department">Department:</label><br>
+    <input type="text" id="department" name="department"><br><br>
+
+    <label for="position">Position:</label><br>
+    <input type="text" id="position" name="position"><br><br>
+
+    <label for="doj">Date of Joining:</label><br>
+    <input type="date" id="doj" name="doj"><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="3" cols="30"></textarea><br><br>
+
+    <label for="salary">Salary:</label><br>
+    <input type="number" id="salary" name="salary" step="0.01"><br><br>
+
+    <label for="password">Set Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <button>Register</button>
+    </form>
+
+</body>
+</html>
